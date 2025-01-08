@@ -1,10 +1,20 @@
+
+
 :root {
+    --primary-color: #755C3B;
+    --secondary-color: #A68B73;
+    --color-accent: #3D2B17;
+    --background-color: #8d7f6a;
+    --text-color: #3D2B17;
+    --color-text-light: #F5E6D3;
+}
+/* :root {
     --primary-color: #B8860B;
     --secondary-color: #F4E5C2;
     --text-color: #333;
     --background-color: #FFF;
     --footer-bg-color: #F5F5F5;
-}
+} */
 
 * {
     margin: 0;
@@ -50,7 +60,7 @@ ul {
 }
 
 .btn:hover {
-    background-color: #9B7506;
+    background-color: var(--background-color);
 }
 
 /* Header and Navigation */
